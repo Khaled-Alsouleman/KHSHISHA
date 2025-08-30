@@ -59945,7 +59945,7 @@ $S:386}
 A.rY.prototype={
 am(){return new A.HF()}}
 A.HF.prototype={
-N(a){var s="images/dance.jpg"
+N(a){var s="assets/images/dance.jpg"
 return A.adD(null,B.n,A.adC(!0,new A.no(new A.a3V(this,A.cj(a,null,t.w).w.a,A.b([new A.c8("COCKTAILS\nCLASSIC",s),new A.c8("HIGH BALLSE",s),new A.c8("COCKTAILS\nSTRONG",s),new A.c8("COCKTAILS\nCAIPI",s),new A.c8("SOURS",s),new A.c8("FANCY\nDRINK",s),new A.c8("LONGDRINK",s),new A.c8("SHOOTERS",s),new A.c8("FLASCHEN",s),new A.c8("BIER",s),new A.c8("SEKT &\nWEIN",s),new A.c8("ENERGY\nDRINKS",s),new A.c8("SOFTDRINKS",s),new A.c8("HAUSGEMACHTE EISTEE & \nLIMONADE",s),new A.c8("COCKTAILS\nALKOHOLFREI",s),new A.c8("SHAKE",s),new A.c8("HEISSE GETR\xc4NKE",s),new A.c8("SNACKS",s),new A.c8("SNACKSPIZZA &\nBAGUETTE",s),new A.c8("SHISHA",s)],t.Av)),null),!0))},
 QL(){var s,r,q,p,o,n,m,l=J.RV(140,t.es)
 for(s=0;s<140;++s){r=A.U(102,255,255,255)
@@ -59964,7 +59964,7 @@ r=A.LY(a,2,1,2)
 q=A.LY(a,240,200,220)
 j=this.a.QL()
 m=this.b
-k=A.a8u("images/Logo.png",B.R,n,B.dB,B.eR,n,l)
+k=A.a8u("assets/images/Logo.png",B.R,n,B.dB,B.eR,n,l)
 p=A.LY(a,65,12,16)
 o=t.F
 return A.a93(A.a7S(A.b([A.uy(B.cg,A.b([new A.tm(150,m.b,m.a,!0,B.av,B.ad,!0,j,!1,n),A.Ny(A.a93(A.a7S(A.b([k,B.GV,new A.dV(new A.bd(i,0,i,0),new A.DW(new A.BV(h,s,16,2,2,24,0.9,1,B.Az,B.Bj,B.xf,B.jm,B.vp,0.2,B.eS,!0,B.yc,n),B.i,0.35,B.dz,B.yR,B.wB,n),n),B.GW,B.DV,new A.dV(new A.bd(p,0,p,0),new A.AQ(new A.ZD(r,16,16,q),new A.Zz(new A.a3U(this.c),20,!0,!0,!0,n),n,B.ak,!1,n,n,B.Dr,!0,n,20,B.au,B.tQ,n,B.al,B.a_,n),n),B.uz],o),B.aK,B.aN,B.fW)),n,n)],o),B.eo)],o),B.aK,B.aN,B.cR))},
@@ -63056,7 +63056,7 @@ B.dd=new A.f1(3,"hidden")
 B.eM=new A.f1(4,"paused")
 B.eN=new A.pG(0,"polite")
 B.eO=new A.pG(1,"assertive")
-B.vp=new A.mu("images/dance.jpg",null,null)
+B.vp=new A.mu("assets/images/dance.jpg",null,null)
 B.D=new A.mx(0,"up")
 B.aX=new A.mx(1,"right")
 B.A=new A.mx(2,"down")
