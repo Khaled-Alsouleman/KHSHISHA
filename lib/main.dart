@@ -1,5 +1,6 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
+import 'package:krautheimer_shisha_bar/screens/classic_screen.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 // Widgets
@@ -52,26 +53,26 @@ class _MyHomePageState extends State<MyHomePage> {
 
     // Deine Items für die Karten (unter dem Panel)
     final items = <_CatItem>[
-      _CatItem('COCKTAILS\nCLASSIC', 'assets/images/dance.jpg'),
-      _CatItem('HIGH BALLSE', 'assets/images/dance.jpg'),
-      _CatItem('COCKTAILS\nSTRONG', 'assets/images/dance.jpg'),
-      _CatItem('COCKTAILS\nCAIPI', 'assets/images/dance.jpg'),
-      _CatItem('SOURS', 'assets/images/dance.jpg'),
-      _CatItem('FANCY\nDRINK', 'assets/images/dance.jpg'),
-      _CatItem('LONGDRINK', 'assets/images/dance.jpg'),
-      _CatItem('SHOOTERS', 'assets/images/dance.jpg'),
-      _CatItem('FLASCHEN', 'assets/images/dance.jpg'),
-      _CatItem('BIER', 'assets/images/dance.jpg'),
-      _CatItem('SEKT &\nWEIN', 'assets/images/dance.jpg'),
-      _CatItem('ENERGY\nDRINKS', 'assets/images/dance.jpg'),
-      _CatItem('SOFTDRINKS', 'assets/images/dance.jpg'),
-      _CatItem('HAUSGEMACHTE EISTEE & \nLIMONADE', 'assets/images/dance.jpg'),
-      _CatItem('COCKTAILS\nALKOHOLFREI', 'assets/images/dance.jpg'),
-      _CatItem('SHAKE', 'assets/images/dance.jpg'),
-      _CatItem('HEISSE GETRÄNKE', 'assets/images/dance.jpg'),
-      _CatItem('SNACKS', 'assets/images/dance.jpg'),
-      _CatItem('SNACKSPIZZA &\nBAGUETTE', 'assets/images/dance.jpg'),
-      _CatItem('SHISHA', 'assets/images/dance.jpg'),
+      _CatItem('COCKTAILS\nCLASSIC', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('HIGH BALLSE', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('COCKTAILS\nSTRONG', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('COCKTAILS\nCAIPI', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('SOURS', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('FANCY\nDRINK', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('LONGDRINK', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('SHOOTERS', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('FLASCHEN', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('BIER', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('SEKT &\nWEIN', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('ENERGY\nDRINKS', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('SOFTDRINKS', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('HAUSGEMACHTE EISTEE & \nLIMONADE', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('COCKTAILS\nALKOHOLFREI', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('SHAKE', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('HEISSE GETRÄNKE', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('SNACKS', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('SNACKSPIZZA &\nBAGUETTE', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('SHISHA', 'assets/images/dance.jpg', const ClassicScreen()),
     ];
 
     return Scaffold(
@@ -108,7 +109,7 @@ class _MyHomePageState extends State<MyHomePage> {
             );
             final cardHeight = getValueForScreenType<double>(
               context: context,
-              mobile: 200,
+              mobile: 125,
               tablet: 220,
               desktop: 240,
             );
@@ -266,12 +267,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       imagePath: it.imagePath,
                                       onTap: () {
                                         Navigator.of(context).push(
-                                          MaterialPageRoute(
-                                            builder: (_) => CategoryScreen(
-                                              title: it.title,
-                                              imagePath: it.imagePath,
-                                            ),
-                                          ),
+                                          MaterialPageRoute(builder: (_) => it.child), // direkt Child öffnen
                                         );
                                       },
                                     );
@@ -346,36 +342,25 @@ class _CategoryCard extends StatelessWidget {
             ],
           ),
           child: Row(
+            mainAxisAlignment: MainAxisAlignment.center,
             children: [
               // Linke Textseite
               Expanded(
                 flex: 5,
-                child: Padding(
-                  padding: const EdgeInsets.symmetric(horizontal: 18, vertical: 16),
-                  child: Align(
-                    alignment: Alignment.centerLeft,
-                    child: DefaultTextStyle(
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    const SizedBox(height: 8),
+                    Text(
+                      title.toUpperCase(),
                       style: const TextStyle(
-                        color: Colors.white,
-                        fontSize: 26,
-                        fontWeight: FontWeight.w800,
-                        height: 1.05,
-                        letterSpacing: 1.0,
-                      ),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        crossAxisAlignment: CrossAxisAlignment.start,
-                        children: [
-                          const SizedBox(height: 8),
-                          Text(
-                            title.toUpperCase(),
-                            maxLines: 3,
-                            overflow: TextOverflow.ellipsis,
-                          ),
-                        ],
-                      ),
+                          color: Colors.white,
+                          fontSize: 20,
+                          fontWeight: FontWeight.bold),
+                      maxLines: 3,
+                      overflow: TextOverflow.ellipsis,
                     ),
-                  ),
+                  ],
                 ),
               ),
               // Rechte Bildseite
@@ -446,7 +431,7 @@ class CategoryScreen extends StatelessWidget {
           Text(
             title,
             style: TextStyle(
-              fontSize: 16,
+              fontSize: 6,
               color: Colors.white.withOpacity(0.8),
               height: 1.35,
             ),
@@ -461,5 +446,6 @@ class CategoryScreen extends StatelessWidget {
 class _CatItem {
   final String title;
   final String imagePath;
-  _CatItem(this.title, this.imagePath);
+  final Widget child;
+  _CatItem(this.title, this.imagePath, this.child);
 }
