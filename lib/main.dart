@@ -52,26 +52,26 @@ class _MyHomePageState extends State<MyHomePage> {
 
     // Deine Items für die Karten (unter dem Panel)
     final items = <_CatItem>[
-      _CatItem('COCKTAILS\nCLASSIC', 'images/dance.jpg'),
-      _CatItem('HIGH BALLSE', 'images/dance.jpg'),
-      _CatItem('COCKTAILS\nSTRONG', 'images/dance.jpg'),
-      _CatItem('COCKTAILS\nCAIPI', 'images/dance.jpg'),
-      _CatItem('SOURS', 'images/dance.jpg'),
-      _CatItem('FANCY\nDRINK', 'images/dance.jpg'),
-      _CatItem('LONGDRINK', 'images/dance.jpg'),
-      _CatItem('SHOOTERS', 'images/dance.jpg'),
-      _CatItem('FLASCHEN', 'images/dance.jpg'),
-      _CatItem('BIER', 'images/dance.jpg'),
-      _CatItem('SEKT &\nWEIN', 'images/dance.jpg'),
-      _CatItem('ENERGY\nDRINKS', 'images/dance.jpg'),
-      _CatItem('SOFTDRINKS', 'images/dance.jpg'),
-      _CatItem('HAUSGEMACHTE EISTEE & \nLIMONADE', 'images/dance.jpg'),
-      _CatItem('COCKTAILS\nALKOHOLFREI', 'images/dance.jpg'),
-      _CatItem('SHAKE', 'images/dance.jpg'),
-      _CatItem('HEISSE GETRÄNKE', 'images/dance.jpg'),
-      _CatItem('SNACKS', 'images/dance.jpg'),
-      _CatItem('SNACKSPIZZA &\nBAGUETTE', 'images/dance.jpg'),
-      _CatItem('SHISHA', 'images/dance.jpg'),
+      _CatItem('COCKTAILS\nCLASSIC', 'assets/images/dance.jpg'),
+      _CatItem('HIGH BALLSE', 'assets/images/dance.jpg'),
+      _CatItem('COCKTAILS\nSTRONG', 'assets/images/dance.jpg'),
+      _CatItem('COCKTAILS\nCAIPI', 'assets/images/dance.jpg'),
+      _CatItem('SOURS', 'assets/images/dance.jpg'),
+      _CatItem('FANCY\nDRINK', 'assets/images/dance.jpg'),
+      _CatItem('LONGDRINK', 'assets/images/dance.jpg'),
+      _CatItem('SHOOTERS', 'assets/images/dance.jpg'),
+      _CatItem('FLASCHEN', 'assets/images/dance.jpg'),
+      _CatItem('BIER', 'assets/images/dance.jpg'),
+      _CatItem('SEKT &\nWEIN', 'assets/images/dance.jpg'),
+      _CatItem('ENERGY\nDRINKS', 'assets/images/dance.jpg'),
+      _CatItem('SOFTDRINKS', 'assets/images/dance.jpg'),
+      _CatItem('HAUSGEMACHTE EISTEE & \nLIMONADE', 'assets/images/dance.jpg'),
+      _CatItem('COCKTAILS\nALKOHOLFREI', 'assets/images/dance.jpg'),
+      _CatItem('SHAKE', 'assets/images/dance.jpg'),
+      _CatItem('HEISSE GETRÄNKE', 'assets/images/dance.jpg'),
+      _CatItem('SNACKS', 'assets/images/dance.jpg'),
+      _CatItem('SNACKSPIZZA &\nBAGUETTE', 'assets/images/dance.jpg'),
+      _CatItem('SHISHA', 'assets/images/dance.jpg'),
     ];
 
     return Scaffold(
@@ -94,7 +94,7 @@ class _MyHomePageState extends State<MyHomePage> {
             (c.maxWidth - 2 * edgeMargin).clamp(280.0, c.maxWidth).toDouble();
             final panelHeight = getValueForScreenType<double>(
               context: context,
-              mobile: 25.sh,
+              mobile: 30.sh,
               tablet: 40.sh,
               desktop: 25.sh,
             );
@@ -140,7 +140,7 @@ class _MyHomePageState extends State<MyHomePage> {
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Image.asset(
-                                'images/Logo.png',
+                                'assets/images/Logo.png',
                                 width: logoW,
                                 fit: BoxFit.contain,
                                 filterQuality: FilterQuality.high,
@@ -176,7 +176,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       horizontal: 16,
                                       vertical: 16,
                                     ),
-                                    backgroundImage: const AssetImage('images/dance.jpg'),
+                                    backgroundImage: const AssetImage('assets/images/dance.jpg'),
                                     backgroundOpacity: 0.20,
                                     backgroundFit: BoxFit.cover,
               
