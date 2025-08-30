@@ -59959,7 +59959,7 @@ A.a3V.prototype={
 $2(a,b){var s,r,q,p,o,n=null,m=b.b,l=B.c.ha(m*0.8,160,350),k=$.De.aE(),j=$.De.aE(),i=A.LY(a,0.06*$.De.aE(),0.04*k,0.05*j),h=B.c.ha(m-2*i,280,m)
 m=$.Dd.aE()
 j=$.Dd.aE()
-s=A.LY(a,0.25*$.Dd.aE(),0.25*m,0.4*j)
+s=A.LY(a,0.25*$.Dd.aE(),0.3*m,0.4*j)
 r=A.LY(a,2,1,2)
 q=A.LY(a,240,200,220)
 j=this.a.QL()
