@@ -17,6 +17,8 @@ class MenuItemCard extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.circular(12),
       child: Container(
+        height: MediaQuery.of(context).size.height /5,
+        width: MediaQuery.of(context).size.width /0.8,
         decoration: BoxDecoration(
           color: Colors.black,
           borderRadius: BorderRadius.circular(12),

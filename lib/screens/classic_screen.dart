@@ -8,16 +8,16 @@ class ClassicScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final items = [
-      {"title": "Bacardi Razz Mojito", "image": "assets/images/dance.jpg", "price": 8.90},
-      {"title": "Tropical", "image": "assets/images/dance.jpg", "price": 8.90},
-      {"title": "Pina Colada", "image": "assets/images/dance.jpg", "price": 8.90},
-      {"title": "Swimming Pool", "image": "assets/images/dance.jpg", "price": 8.90},
-      {"title": "Sex on the Beach", "image": "assets/images/dance.jpg", "price": 8.90},
-      {"title": "Strawberry Colada", "image": "assets/images/dance.jpg", "price": 8.90},
-      {"title": "Touchdown", "image": "assets/images/dance.jpg", "price": 8.90},
-      {"title": "Tequila Sun Rises", "image": "assets/images/dance.jpg", "price": 8.90},
-      {"title": "Cuba Libre", "image": "assets/images/dance.jpg", "price": 8.90},
-      {"title": "Mojito", "image": "assets/images/dance.jpg", "price": 8.90},
+      {"title": "Bacardi Razz Mojito", "image": "assets/images/BacardiRazzMojito.jpg", "price": 8.90},
+      {"title": "Tropical", "image": "assets/images/Tropical.png", "price": 8.90},
+      {"title": "Pina Colada", "image": "assets/images/PinaColada.png", "price": 8.90},
+      {"title": "Swimming Pool", "image": "assets/images/SwimmingPool.png", "price": 8.90},
+      {"title": "Sex on the Beach", "image": "assets/images/SexOnTheBeach.jpg", "price": 8.90},
+      {"title": "Strawberry Colada", "image": "assets/images/StrawberryColada.jpg", "price": 8.90},
+      {"title": "Touchdown", "image": "assets/images/Touchdown.jpg", "price": 8.90},
+      {"title": "Tequila Sun Rises", "image": "assets/images/TequilaSunRises.png", "price": 8.90},
+      {"title": "Cuba Libre", "image": "assets/images/CubaLibre.png", "price": 8.90},
+      {"title": "Mojito", "image": "assets/images/Mojito.jpg", "price": 8.90},
     ];
 
     return Scaffold(
@@ -34,13 +34,14 @@ class ClassicScreen extends StatelessWidget {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(16.0),
+        padding:  const EdgeInsets.all(8.0),
         child: GridView.builder(
           itemCount: items.length,
-          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+          gridDelegate:  SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 1,
             crossAxisSpacing: 10,
             mainAxisSpacing: 10,
+            mainAxisExtent: MediaQuery.of(context).size.height /4,
             childAspectRatio: 1.5,
           ),
           itemBuilder: (context, index) {

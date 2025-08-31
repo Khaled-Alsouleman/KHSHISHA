@@ -267,7 +267,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                       imagePath: it.imagePath,
                                       onTap: () {
                                         Navigator.of(context).push(
-                                          MaterialPageRoute(builder: (_) => it.child), // direkt Child öffnen
+                                          MaterialPageRoute(builder: (_) => it.child),
                                         );
                                       },
                                     );
