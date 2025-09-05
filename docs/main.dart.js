@@ -59641,7 +59641,7 @@ A.rU.prototype={
 am(){return new A.Hy()}}
 A.Hy.prototype={
 N(a){var s="assets/images/dance.jpg"
-return A.ads(null,B.n,A.adr(!0,new A.nj(new A.a3J(this,A.bZ(a,null,t.w).w.a,A.b([new A.c9("COCKTAILS\nCLASSIC",s,B.Q),new A.c9("HIGH BALLSE",s,B.Q),new A.c9("COCKTAILS\nSTRONG",s,B.Q),new A.c9("COCKTAILS\nCAIPI",s,B.Q),new A.c9("SOURS",s,B.Q),new A.c9("FANCY\nDRINK",s,B.Q),new A.c9("LONGDRINK",s,B.Q),new A.c9("SHOOTERS",s,B.Q),new A.c9("FLASCHEN",s,B.Q),new A.c9("BIER",s,B.Q),new A.c9("SEKT &\nWEIN",s,B.Q),new A.c9("ENERGY\nDRINKS",s,B.Q),new A.c9("SOFTDRINKS",s,B.Q),new A.c9("HAUSGEMACHTE EISTEE & \nLIMONADE",s,B.Q),new A.c9("COCKTAILS\nALKOHOLFREI",s,B.Q),new A.c9("SHAKE",s,B.Q),new A.c9("HEISSE GETR\xc4NKE",s,B.Q),new A.c9("SNACKS",s,B.Q),new A.c9("SNACKSPIZZA &\nBAGUETTE",s,B.Q),new A.c9("SHISHA",s,B.Q)],t.Av)),null),!0))},
+return A.ads(null,B.n,A.adr(!0,new A.nj(new A.a3J(this,A.bZ(a,null,t.w).w.a,A.b([new A.c9("COCKTAILS\nCLASSIC","assets/images/classic_menu.jpg",B.Q),new A.c9("HIGH BALLSE",s,B.Q),new A.c9("COCKTAILS\nSTRONG",s,B.Q),new A.c9("COCKTAILS\nCAIPI",s,B.Q),new A.c9("SOURS",s,B.Q),new A.c9("FANCY\nDRINK",s,B.Q),new A.c9("LONGDRINK",s,B.Q),new A.c9("SHOOTERS",s,B.Q),new A.c9("FLASCHEN",s,B.Q),new A.c9("BIER",s,B.Q),new A.c9("SEKT &\nWEIN",s,B.Q),new A.c9("ENERGY\nDRINKS",s,B.Q),new A.c9("SOFTDRINKS",s,B.Q),new A.c9("HAUSGEMACHTE EISTEE & \nLIMONADE",s,B.Q),new A.c9("COCKTAILS\nALKOHOLFREI",s,B.Q),new A.c9("SHAKE",s,B.Q),new A.c9("HEISSE GETR\xc4NKE",s,B.Q),new A.c9("SNACKS",s,B.Q),new A.c9("SNACKSPIZZA &\nBAGUETTE",s,B.Q),new A.c9("SHISHA",s,B.Q)],t.Av)),null),!0))},
 Qv(){var s,r,q,p,o,n,m,l=J.RL(140,t.es)
 for(s=0;s<140;++s){r=A.U(102,255,255,255)
 q=B.bQ.oc()
