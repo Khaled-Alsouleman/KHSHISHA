@@ -51,29 +51,209 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     final screen = MediaQuery.of(context).size;
 
-    // Deine Items für die Karten (unter dem Panel)
     final items = <_CatItem>[
-      _CatItem('COCKTAILS\nCLASSIC', 'assets/images/classic_menu.jpg', const ClassicScreen()),
-      _CatItem('HIGH BALLSE', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('COCKTAILS\nSTRONG', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('COCKTAILS\nCAIPI', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('SOURS', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('FANCY\nDRINK', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('LONGDRINK', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('SHOOTERS', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('FLASCHEN', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('BIER', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('SEKT &\nWEIN', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('ENERGY\nDRINKS', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('SOFTDRINKS', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('HAUSGEMACHTE EISTEE & \nLIMONADE', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('COCKTAILS\nALKOHOLFREI', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('SHAKE', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('HEISSE GETRÄNKE', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('SNACKS', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('SNACKSPIZZA &\nBAGUETTE', 'assets/images/dance.jpg', const ClassicScreen()),
-      _CatItem('SHISHA', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem(
+        const GlowText(
+          'COCKTAILS\nCLASSIC',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/classic_menu.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'HIGH BALLSE',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'COCKTAILS\nSTRONG',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'COCKTAILS\nCAIPI',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'SOURS',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'FANCY\nDRINK',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'LONGDRINK',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'SHOOTERS',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'FLASCHEN',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'BIER',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'SEKT &\nWEIN',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'ENERGY\nDRINKS',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'SOFTDRINKS',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'HAUSGEMACHTE EISTEE & \nLIMONADE',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'COCKTAILS\nALKOHOLFREI',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'SHAKE',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'HEISSE GETRÄNKE',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'SNACKS',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'SNACKSPIZZA &\nBAGUETTE',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
+      _CatItem(
+        const GlowText(
+          'SHISHA',
+          glowColor: Colors.purpleAccent,
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+        'assets/images/dance.jpg',
+        const ClassicScreen(),
+      ),
     ];
+
 
     return Scaffold(
       backgroundColor: Colors.black,
@@ -315,7 +495,7 @@ class _CategoryCard extends StatelessWidget {
     this.onTap,
   });
 
-  final String title;
+  final GlowText title;
   final String imagePath;
   final VoidCallback? onTap;
 
@@ -344,26 +524,16 @@ class _CategoryCard extends StatelessWidget {
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              // Linke Textseite
               Expanded(
                 flex: 5,
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     const SizedBox(height: 8),
-                    Text(
-                      title.toUpperCase(),
-                      style: const TextStyle(
-                          color: Colors.white,
-                          fontSize: 20,
-                          fontWeight: FontWeight.bold),
-                      maxLines: 3,
-                      overflow: TextOverflow.ellipsis,
-                    ),
+                  title,
                   ],
                 ),
               ),
-              // Rechte Bildseite
               Expanded(
                 flex: 7,
                 child: ClipRRect(
@@ -444,7 +614,7 @@ class CategoryScreen extends StatelessWidget {
 }
 
 class _CatItem {
-  final String title;
+  final GlowText title;
   final String imagePath;
   final Widget child;
   _CatItem(this.title, this.imagePath, this.child);
