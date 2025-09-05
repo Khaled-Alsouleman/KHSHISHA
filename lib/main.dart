@@ -53,7 +53,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
     // Deine Items für die Karten (unter dem Panel)
     final items = <_CatItem>[
-      _CatItem('COCKTAILS\nCLASSIC', 'assets/images/dance.jpg', const ClassicScreen()),
+      _CatItem('COCKTAILS\nCLASSIC', 'assets/images/classic_menu.jpg', const ClassicScreen()),
       _CatItem('HIGH BALLSE', 'assets/images/dance.jpg', const ClassicScreen()),
       _CatItem('COCKTAILS\nSTRONG', 'assets/images/dance.jpg', const ClassicScreen()),
       _CatItem('COCKTAILS\nCAIPI', 'assets/images/dance.jpg', const ClassicScreen()),
@@ -423,7 +423,7 @@ class CategoryScreen extends StatelessWidget {
               imagePath,
               height: 240,
               width: double.infinity,
-              fit: BoxFit.cover,
+              fit: BoxFit.contain,
             ),
           ),
           const SizedBox(height: 16),
