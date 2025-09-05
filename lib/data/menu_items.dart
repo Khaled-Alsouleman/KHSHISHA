@@ -3,6 +3,7 @@ import 'package:krautheimer_shisha_bar/screens/strong_screen.dart';
 import '../models/CatItem.dart';
 import '../screens/classic_screen.dart';
 import '../screens/high_balls_screen.dart';
+import '../screens/sours_screen.dart';
 import '../widgets/GlowText.dart';
 
 GlowText _glow(String text) => GlowText(
@@ -28,9 +29,9 @@ final List<CatItem> menuItems = [
     'assets/images/cStrong.png',
     const StrongScreen(),),
   CatItem(
-      _glow('SOURS'),
-      'assets/images/dance.jpg',
-      const ClassicScreen()
+    _glow('SOURS'),
+    'assets/images/sour.png',
+    const SoursScreen(),
   ),
   CatItem(
       _glow('FANCY\nDRINK'),
