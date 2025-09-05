@@ -17,8 +17,8 @@ class MenuItemCard extends StatelessWidget {
     return ClipRRect(
       borderRadius: BorderRadius.circular(12),
       child: Container(
-        height: MediaQuery.of(context).size.height /5,
-        width: MediaQuery.of(context).size.width /0.8,
+        height: MediaQuery.of(context).size.height / 5,
+        width: MediaQuery.of(context).size.width / 0.8,
         decoration: BoxDecoration(
           color: Colors.black,
           borderRadius: BorderRadius.circular(12),
@@ -34,22 +34,18 @@ class MenuItemCard extends StatelessWidget {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            // Bild oben
             Expanded(
               child: Image.asset(
                 imagePath,
                 fit: BoxFit.cover,
               ),
             ),
-
-            // Balken unten mit Name + Preis
             Container(
               color: const Color(0xFF121214),
               padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 8),
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
-                  // Name links
                   Expanded(
                     child: Text(
                       title.toUpperCase(),
@@ -61,7 +57,6 @@ class MenuItemCard extends StatelessWidget {
                       overflow: TextOverflow.ellipsis,
                     ),
                   ),
-                  // Preis rechts
                   Text(
                     "${price.toStringAsFixed(2)}€",
                     style: const TextStyle(
