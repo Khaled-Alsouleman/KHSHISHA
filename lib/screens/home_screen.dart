@@ -40,7 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
             (c.maxWidth - 2 * edgeMargin).clamp(280.0, c.maxWidth).toDouble();
             final panelHeight = getValueForScreenType<double>(
               context: context,
-              mobile: 15.sh,
+              mobile: 32.sh,
               tablet: 30.sh,
               desktop: 20.sh,
             );
