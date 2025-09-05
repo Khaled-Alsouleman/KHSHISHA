@@ -1,6 +1,7 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:krautheimer_shisha_bar/screens/classic_screen.dart';
+import 'package:krautheimer_shisha_bar/screens/high_balls_screen.dart';
 import 'package:responsive_builder/responsive_builder.dart';
 
 // Widgets
@@ -69,8 +70,8 @@ class _MyHomePageState extends State<MyHomePage> {
           fontSize: 18,
           fontWeight: FontWeight.bold,
         ),
-        'assets/images/dance.jpg',
-        const ClassicScreen(),
+        'assets/images/high_balls_menu.png',
+        const HighBallsScreen(),
       ),
       _CatItem(
         const GlowText(
@@ -487,7 +488,7 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 
-// ====== Kleine Card-View (links Text, rechts Bild) ======
+
 class _CategoryCard extends StatelessWidget {
   const _CategoryCard({
     required this.title,
