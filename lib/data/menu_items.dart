@@ -21,7 +21,7 @@ final List<CatItem> menuItems = [
       const ClassicScreen()
   ),
   CatItem(
-      _glow('HIGH BALLSE'),
+      _glow('HIGH BALLS'),
       'assets/images/high_balls_menu.png',
       const HighBallsScreen()
   ),
