@@ -40,9 +40,9 @@ class _MyHomePageState extends State<MyHomePage> {
             (c.maxWidth - 2 * edgeMargin).clamp(280.0, c.maxWidth).toDouble();
             final panelHeight = getValueForScreenType<double>(
               context: context,
-              mobile: 30.sh,
-              tablet: 40.sh,
-              desktop: 25.sh,
+              mobile: 15.sh,
+              tablet: 30.sh,
+              desktop: 20.sh,
             );
 
             final columns = getValueForScreenType<int>(
@@ -137,7 +137,7 @@ class _MyHomePageState extends State<MyHomePage> {
                                           '16:00 bis 00:00 Uhr',
                                           textColor: Colors.white,
                                           glowColor: Colors.blueAccent,
-                                          fontSize: 25,
+                                          fontSize: 35,
                                           fontWeight: FontWeight.w700,
                                         ),
                                         SizedBox(height: 5),
@@ -155,10 +155,10 @@ class _MyHomePageState extends State<MyHomePage> {
                                           '16:00 bis 05:00 Uhr',
                                           textColor: Colors.white,
                                           glowColor: Colors.red,
-                                          fontSize: 25,
+                                          fontSize: 35,
                                           fontWeight: FontWeight.w700,
                                         ),
-                                        SizedBox(height: 8),
+                                        SizedBox(height: 2),
                                       ],
                                     ),
                                   ),

@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:krautheimer_shisha_bar/screens/strong_screen.dart';
 import '../models/CatItem.dart';
 import '../screens/classic_screen.dart';
+import '../screens/fancy_screen.dart';
 import '../screens/high_balls_screen.dart';
 import '../screens/sours_screen.dart';
 import '../widgets/GlowText.dart';
@@ -34,9 +35,9 @@ final List<CatItem> menuItems = [
     const SoursScreen(),
   ),
   CatItem(
-      _glow('FANCY\nDRINK'),
-      'assets/images/dance.jpg',
-      const ClassicScreen()
+    _glow('FANCY\nDRINKS'),
+    'assets/images/fancyDrink.png',
+    const FancyScreen(),
   ),
   CatItem(
       _glow('LONGDRINK'),
