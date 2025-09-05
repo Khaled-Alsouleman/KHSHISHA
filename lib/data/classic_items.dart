@@ -1,8 +1,8 @@
 import '../models/MenuItem.dart';
 
 final List<MenuItem> classicItems = [
-  const MenuItem(title: "Bacardi Razz Mojito", imagePath: "assets/images/BacardiRazzMojito.jpg", price: 8.90),
-  const MenuItem(title: "Tropical",             imagePath: "assets/images/Tropical.png",              price: 8.90),
+  const MenuItem(title: "Bacardi Razz Mojito",  imagePath: "assets/images/BacardiRazzMojito.jpg",    price: 8.90),
+  const MenuItem(title: "Tropical",             imagePath: "assets/images/Tropical.png",             price: 8.90),
   const MenuItem(title: "Pina Colada",          imagePath: "assets/images/PinaColada.png",           price: 8.90),
   const MenuItem(title: "Swimming Pool",        imagePath: "assets/images/SwimmingPool.png",         price: 8.90),
   const MenuItem(title: "Sex on the Beach",     imagePath: "assets/images/SexOnTheBeach.jpg",        price: 8.90),
