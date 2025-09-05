@@ -59467,7 +59467,7 @@ A.a3P.prototype={
 $2(a,b){var s,r,q,p,o,n=null,m=b.b,l=B.c.h7(m*0.8,160,350),k=$.D9.aC(),j=$.D9.aC(),i=A.LT(a,0.06*$.D9.aC(),0.04*k,0.05*j),h=B.c.h7(m-2*i,280,m)
 m=$.D8.aC()
 j=$.D8.aC()
-s=A.LT(a,0.2*$.D8.aC(),0.15*m,0.3*j)
+s=A.LT(a,0.2*$.D8.aC(),0.32*m,0.3*j)
 r=A.LT(a,2,1,2)
 q=A.LT(a,240,125,220)
 j=this.a.Qn()
