@@ -13,6 +13,7 @@ import '../screens/hot_screen.dart';
 import '../screens/ice_tea_screen.dart';
 import '../screens/shisha_screen.dart';
 import '../screens/shooters_screen.dart';
+import '../screens/snacks_screen.dart';
 import '../screens/softdrinks_screen.dart';
 import '../screens/sours_screen.dart';
 import '../widgets/GlowText.dart';
@@ -96,10 +97,11 @@ CatItem(
     const HotScreen(),
   ),
 
-CatItem(
+  CatItem(
     _glow('SNACKS'),
-    'assets/images/dance.jpg',
-    const ClassicScreen()),
+    'assets/images/snacks.jpg',
+    const SnacksScreen(),
+  ),
   CatItem(
       _glow('SNACKSPIZZA &\nBAGUETTE'),
       'assets/images/dance.jpg',
