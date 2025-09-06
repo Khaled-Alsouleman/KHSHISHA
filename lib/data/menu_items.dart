@@ -9,33 +9,38 @@ import '../screens/fancy_screen.dart';
 import '../screens/flaschen_screen.dart';
 import '../screens/high_balls_screen.dart';
 import '../screens/ice_tea_screen.dart';
+import '../screens/shisha_screen.dart';
 import '../screens/shooters_screen.dart';
 import '../screens/softdrinks_screen.dart';
 import '../screens/sours_screen.dart';
 import '../widgets/GlowText.dart';
 
 GlowText _glow(String text) => GlowText(
-  text,
-  glowColor: Colors.purpleAccent,
-  fontSize: 18,
-  fontWeight: FontWeight.bold,
-);
+      text,
+      glowColor: Colors.purpleAccent,
+      fontSize: 18,
+      fontWeight: FontWeight.bold,
+    );
 
 final List<CatItem> menuItems = [
   CatItem(
+    _glow('SHISHA'),
+    'assets/images/shisha.png',
+    const ShishaScreen(),
+  ),
+  CatItem(
       _glow('COCKTAILS\nCLASSIC'),
       'assets/images/classic_menu.jpg',
-      const ClassicScreen()
-  ),
+      const ClassicScreen()),
   CatItem(
       _glow('HIGH BALLS'),
       'assets/images/high_balls_menu.png',
-      const HighBallsScreen()
-  ),
+      const HighBallsScreen()),
   CatItem(
     _glow('COCKTAILS\nSTRONG'),
     'assets/images/cStrong.png',
-    const StrongScreen(),),
+    const StrongScreen(),
+  ),
   CatItem(
     _glow('SOURS'),
     'assets/images/sour.png',
@@ -46,11 +51,8 @@ final List<CatItem> menuItems = [
     'assets/images/fancyDrink.png',
     const FancyScreen(),
   ),
-  CatItem(
-      _glow('LONGDRINK'),
-      'assets/images/longDrink.png',
-      const LongDrinksScreen()
-  ),
+  CatItem(_glow('LONGDRINK'), 'assets/images/longDrink.png',
+      const LongDrinksScreen()),
   CatItem(
     _glow('SHOOTERS'),
     'assets/images/shooters.png',
@@ -81,27 +83,11 @@ final List<CatItem> menuItems = [
     'assets/images/hEisteeLimo.png',
     const IceTeaScreen(),
   ),
-  CatItem(
-      _glow('COCKTAILS\nALKOHOLFREI'),
-      'assets/images/dance.jpg', const ClassicScreen()),
-  CatItem(
-      _glow('HEISSE GETRÄNKE'),
-      'assets/images/dance.jpg',
-      const ClassicScreen()
-  ),
-  CatItem(
-      _glow('SNACKS'),
-      'assets/images/dance.jpg',
-      const ClassicScreen()
-  ),
-  CatItem(
-      _glow('SNACKSPIZZA &\nBAGUETTE'),
-      'assets/images/dance.jpg',
-      const ClassicScreen()
-  ),
-  CatItem(
-      _glow('SHISHA'),
-      'assets/images/dance.jpg',
-      const ClassicScreen()
-  ),
+  CatItem(_glow('COCKTAILS\nALKOHOLFREI'), 'assets/images/dance.jpg',
+      const ClassicScreen()),
+  CatItem(_glow('HEISSE GETRÄNKE'), 'assets/images/dance.jpg',
+      const ClassicScreen()),
+  CatItem(_glow('SNACKS'), 'assets/images/dance.jpg', const ClassicScreen()),
+  CatItem(_glow('SNACKSPIZZA &\nBAGUETTE'), 'assets/images/dance.jpg',
+      const ClassicScreen()),
 ];
