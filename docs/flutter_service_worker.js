@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "48dc57920640c5e4a45cf2650fff0cf0",
-"assets/AssetManifest.bin.json": "08d9425d471e75d7ef9740d49025fe38",
-"assets/AssetManifest.json": "fafbdefa05b4c7e48671b148de5bb44b",
+const RESOURCES = {"assets/AssetManifest.bin": "6d9bc35d543fb1093ae4a9ff75437a92",
+"assets/AssetManifest.bin.json": "86f57abb18a8e6ba2255b92fb08589d3",
+"assets/AssetManifest.json": "893e68d466002ae0d8e9f66734c41ebc",
 "assets/assets/images/28black.jpg": "ab50d6dd0c1fa1b78c1cefa9504874e7",
 "assets/assets/images/absolut.png": "b5c6ae7456adeca31c9fd93142f1cfa2",
 "assets/assets/images/absolutFlaschen.png": "b5c6ae7456adeca31c9fd93142f1cfa2",
@@ -80,6 +80,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "48dc57920640c5e4a45cf2650fff0cf0
 "assets/assets/images/saft.jpg": "6d35f9aa4a3bf17e00e3fe172ac1a2cb",
 "assets/assets/images/sambucaShooter.jpg": "0e337e0fc9030cce89fca60a3133c66f",
 "assets/assets/images/SexOnTheBeach.jpg": "53b71716ee7eb5e193c9da4c1260a535",
+"assets/assets/images/shisha.png": "2ad1716e80d8cab6fdeb89294d3dc16d",
+"assets/assets/images/shishaClassic.png": "b1295b01ba14e2d089ffbd324968bdeb",
+"assets/assets/images/shishaSpecials.png": "b029f0da9eb195d32fd90bcd229b4910",
 "assets/assets/images/shooters.png": "557e694c6e37fdedb27c57e82bc1f355",
 "assets/assets/images/softDrinkItem.png": "e10b71d1f818ee385ccce6c436976b5b",
 "assets/assets/images/softdrinks.png": "4c3d5f9175dabe2c44409a7ba18314a1",
@@ -110,14 +113,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "48dc57920640c5e4a45cf2650fff0cf0
 "canvaskit/skwasm.worker.js": "89990e8c92bcb123999aa81f7e203b1c",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
-"flutter_bootstrap.js": "f74b04b3fca68dd0424d0042cefb201e",
+"flutter_bootstrap.js": "e5e82955db754ea6d5e15bcbb37dc071",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "d41d8cd98f00b204e9800998ecf8427e",
 "icons/Icon-maskable-192.png": "d41d8cd98f00b204e9800998ecf8427e",
 "icons/Icon-maskable-512.png": "d41d8cd98f00b204e9800998ecf8427e",
 "index.html": "2ebc77835fbf79fbc3770fb50035338b",
 "/": "2ebc77835fbf79fbc3770fb50035338b",
-"main.dart.js": "9622f3ca13b665d1a4574ca07f3712d2",
+"main.dart.js": "85c6895b9a78ff02311c27fbfd0e15cd",
 "manifest.json": "5068e58ede97c5ef053255c09169bb04",
 "version.json": "7e9cfd112d49b43ad155c9c26b73c3e3"};
 // The application shell files that are downloaded before a service worker can
