@@ -4,6 +4,7 @@ import 'package:krautheimer_shisha_bar/screens/strong_screen.dart';
 import '../models/CatItem.dart';
 import '../screens/bier_screen.dart';
 import '../screens/classic_screen.dart';
+import '../screens/energy_screen.dart';
 import '../screens/fancy_screen.dart';
 import '../screens/flaschen_screen.dart';
 import '../screens/high_balls_screen.dart';
@@ -64,9 +65,9 @@ final List<CatItem> menuItems = [
     const BierScreen(),
   ),
   CatItem(
-      _glow('ENERGY\nDRINKS'),
-      'assets/images/dance.jpg',
-      const ClassicScreen()
+    _glow('ENERGY\nDRINKS'),
+    'assets/images/enDrink.png',
+    const EnergyScreen(),
   ),
   CatItem(
       _glow('SOFTDRINKS'),
