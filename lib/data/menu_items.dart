@@ -8,6 +8,7 @@ import '../screens/energy_screen.dart';
 import '../screens/fancy_screen.dart';
 import '../screens/flaschen_screen.dart';
 import '../screens/high_balls_screen.dart';
+import '../screens/ice_tea_screen.dart';
 import '../screens/shooters_screen.dart';
 import '../screens/softdrinks_screen.dart';
 import '../screens/sours_screen.dart';
@@ -76,9 +77,10 @@ final List<CatItem> menuItems = [
     const SoftdrinksScreen(),
   ),
   CatItem(
-      _glow('HAUSGEMACHTE EISTEE & \nLIMONADE'),
-      'assets/images/dance.jpg',
-      const ClassicScreen()),
+    _glow('HAUSGEMACHTE EISTEE & \nLIMONADE'),
+    'assets/images/hEisteeLimo.png',
+    const IceTeaScreen(),
+  ),
   CatItem(
       _glow('COCKTAILS\nALKOHOLFREI'),
       'assets/images/dance.jpg', const ClassicScreen()),
