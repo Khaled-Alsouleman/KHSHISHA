@@ -3,9 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "719a1e8abb38c5ea528884a60bc85c4c",
-"assets/AssetManifest.bin.json": "285c7f9545334d72d7f36cba7b0c7f46",
-"assets/AssetManifest.json": "d32fc25d97e8574163e81feb17669ecd",
+const RESOURCES = {"assets/AssetManifest.bin": "48dc57920640c5e4a45cf2650fff0cf0",
+"assets/AssetManifest.bin.json": "08d9425d471e75d7ef9740d49025fe38",
+"assets/AssetManifest.json": "fafbdefa05b4c7e48671b148de5bb44b",
 "assets/assets/images/28black.jpg": "ab50d6dd0c1fa1b78c1cefa9504874e7",
 "assets/assets/images/absolut.png": "b5c6ae7456adeca31c9fd93142f1cfa2",
 "assets/assets/images/absolutFlaschen.png": "b5c6ae7456adeca31c9fd93142f1cfa2",
@@ -27,6 +27,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "719a1e8abb38c5ea528884a60bc85c4c
 "assets/assets/images/CubaLibre.png": "6efcfa6aa65f58e5d2f7a72f8032b7f0",
 "assets/assets/images/dance.jpg": "e4869995993106af59de4781f72e0795",
 "assets/assets/images/dry.png": "ebf295f298f8084b136b8e2643a0fca6",
+"assets/assets/images/eistee.png": "648fa505fb7e6598f18377fbe788df44",
 "assets/assets/images/elephantBay.jpg": "0518132e4b40b70205c0ab226634c1b8",
 "assets/assets/images/enDrink.png": "7807184f9adfb2d1a15661148f95eb74",
 "assets/assets/images/erdbeereLimes.jpg": "3c96d41e6f7b4c276fe0baf8652221fd",
@@ -42,6 +43,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "719a1e8abb38c5ea528884a60bc85c4c
 "assets/assets/images/hefenweizen.png": "c02e592420f67e962a9a4a265c80385a",
 "assets/assets/images/heferweizerSaft.png": "513513106d9283f568b6d391803e54f5",
 "assets/assets/images/hefferFass.jpg": "d79af8158ba323ff10d5772caaffa674",
+"assets/assets/images/hEisteeLimo.png": "1a05ae82d591af1ee2c7a870a4ffa0e5",
 "assets/assets/images/hendricks.png": "d40e3520de547c95df2a7653c5917cf8",
 "assets/assets/images/hendricksFlaschen.png": "d40e3520de547c95df2a7653c5917cf8",
 "assets/assets/images/hennessy.png": "c7b16d465a6e6814b50fac609e712db1",
@@ -54,6 +56,7 @@ const RESOURCES = {"assets/AssetManifest.bin": "719a1e8abb38c5ea528884a60bc85c4c
 "assets/assets/images/jackdanielsFlaschen.png": "b9a756831e958a9daebcf327ee2a503d",
 "assets/assets/images/jaegermeister.png": "8f322c2e24cc3c34bc413debdc1e770a",
 "assets/assets/images/jaegerShooter.jpg": "39436a72684e0e21c0b7b2eefb67ff82",
+"assets/assets/images/limonade.jpeg": "f7d769e7a12954069d344045d515f954",
 "assets/assets/images/Logo.png": "bc6e62a31b5362efac20bb20c6104acf",
 "assets/assets/images/longDrink.png": "ce3b8453d4c807c7e440778ff61763d0",
 "assets/assets/images/long_island_iced_tea.png": "648fa505fb7e6598f18377fbe788df44",
@@ -107,14 +110,14 @@ const RESOURCES = {"assets/AssetManifest.bin": "719a1e8abb38c5ea528884a60bc85c4c
 "canvaskit/skwasm.worker.js": "89990e8c92bcb123999aa81f7e203b1c",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "flutter.js": "f393d3c16b631f36852323de8e583132",
-"flutter_bootstrap.js": "0c7e760183d6b7c5a25e988bbe6f7406",
+"flutter_bootstrap.js": "f74b04b3fca68dd0424d0042cefb201e",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "d41d8cd98f00b204e9800998ecf8427e",
 "icons/Icon-maskable-192.png": "d41d8cd98f00b204e9800998ecf8427e",
 "icons/Icon-maskable-512.png": "d41d8cd98f00b204e9800998ecf8427e",
 "index.html": "2ebc77835fbf79fbc3770fb50035338b",
 "/": "2ebc77835fbf79fbc3770fb50035338b",
-"main.dart.js": "2bb0cccb4c3f61050efec308fb398d84",
+"main.dart.js": "9622f3ca13b665d1a4574ca07f3712d2",
 "manifest.json": "5068e58ede97c5ef053255c09169bb04",
 "version.json": "7e9cfd112d49b43ad155c9c26b73c3e3"};
 // The application shell files that are downloaded before a service worker can
