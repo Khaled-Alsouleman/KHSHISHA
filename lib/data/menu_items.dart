@@ -11,6 +11,7 @@ import '../screens/flaschen_screen.dart';
 import '../screens/high_balls_screen.dart';
 import '../screens/hot_screen.dart';
 import '../screens/ice_tea_screen.dart';
+import '../screens/pizza_baguette_screen.dart';
 import '../screens/shisha_screen.dart';
 import '../screens/shooters_screen.dart';
 import '../screens/snacks_screen.dart';
@@ -104,6 +105,6 @@ CatItem(
   ),
   CatItem(
       _glow('SNACKSPIZZA &\nBAGUETTE'),
-      'assets/images/dance.jpg',
-      const ClassicScreen()),
+      'assets/images/pizza.jpg',
+      const PizzaBaguetteScreen()),
 ];
