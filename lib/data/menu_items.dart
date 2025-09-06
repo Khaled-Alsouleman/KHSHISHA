@@ -9,6 +9,7 @@ import '../screens/energy_screen.dart';
 import '../screens/fancy_screen.dart';
 import '../screens/flaschen_screen.dart';
 import '../screens/high_balls_screen.dart';
+import '../screens/hot_screen.dart';
 import '../screens/ice_tea_screen.dart';
 import '../screens/shisha_screen.dart';
 import '../screens/shooters_screen.dart';
@@ -89,10 +90,12 @@ CatItem(
     'assets/images/cAlkoholfrei.jpg',
     const CAlkoholfreiScreen(),
 ),
-CatItem(
+  CatItem(
     _glow('HEISSE GETRÄNKE'),
-    'assets/images/dance.jpg',
-    const ClassicScreen()),
+    'assets/images/heisseDrinks.jpg',
+    const HotScreen(),
+  ),
+
 CatItem(
     _glow('SNACKS'),
     'assets/images/dance.jpg',
