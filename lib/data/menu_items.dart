@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:krautheimer_shisha_bar/screens/longdrinks_screen.dart';
 import 'package:krautheimer_shisha_bar/screens/strong_screen.dart';
 import '../models/CatItem.dart';
+import '../screens/bier_screen.dart';
 import '../screens/classic_screen.dart';
 import '../screens/fancy_screen.dart';
 import '../screens/flaschen_screen.dart';
@@ -58,9 +59,9 @@ final List<CatItem> menuItems = [
     const FlaschenScreen(),
   ),
   CatItem(
-      _glow('BIER'),
-      'assets/images/dance.jpg',
-      const ClassicScreen()
+    _glow('BIER'),
+    'assets/images/bier.png',
+    const BierScreen(),
   ),
   CatItem(
       _glow('ENERGY\nDRINKS'),
