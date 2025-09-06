@@ -5,6 +5,7 @@ import '../models/CatItem.dart';
 import '../screens/classic_screen.dart';
 import '../screens/fancy_screen.dart';
 import '../screens/high_balls_screen.dart';
+import '../screens/shooters_screen.dart';
 import '../screens/sours_screen.dart';
 import '../widgets/GlowText.dart';
 
@@ -42,12 +43,13 @@ final List<CatItem> menuItems = [
   ),
   CatItem(
       _glow('LONGDRINK'),
-      'assets/images/longDrink.png', const LongDrinksScreen()
+      'assets/images/longDrink.png',
+      const LongDrinksScreen()
   ),
   CatItem(
-      _glow('SHOOTERS'),
-      'assets/images/dance.jpg',
-      const ClassicScreen()
+    _glow('SHOOTERS'),
+    'assets/images/shooters.png',
+    const ShootersScreen(),
   ),
   CatItem(
       _glow('FLASCHEN'),
