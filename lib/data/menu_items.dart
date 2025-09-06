@@ -3,6 +3,7 @@ import 'package:krautheimer_shisha_bar/screens/longdrinks_screen.dart';
 import 'package:krautheimer_shisha_bar/screens/strong_screen.dart';
 import '../models/CatItem.dart';
 import '../screens/bier_screen.dart';
+import '../screens/cAlkoholfrei_screen.dart';
 import '../screens/classic_screen.dart';
 import '../screens/energy_screen.dart';
 import '../screens/fancy_screen.dart';
@@ -83,11 +84,21 @@ final List<CatItem> menuItems = [
     'assets/images/hEisteeLimo.png',
     const IceTeaScreen(),
   ),
-  CatItem(_glow('COCKTAILS\nALKOHOLFREI'), 'assets/images/dance.jpg',
-      const ClassicScreen()),
-  CatItem(_glow('HEISSE GETRÄNKE'), 'assets/images/dance.jpg',
-      const ClassicScreen()),
-  CatItem(_glow('SNACKS'), 'assets/images/dance.jpg', const ClassicScreen()),
-  CatItem(_glow('SNACKSPIZZA &\nBAGUETTE'), 'assets/images/dance.jpg',
+CatItem(
+    _glow('COCKTAILS\nALKOHOLFREI'),
+    'assets/images/cAlkoholfrei.jpg',
+    const CAlkoholfreiScreen(),
+),
+CatItem(
+    _glow('HEISSE GETRÄNKE'),
+    'assets/images/dance.jpg',
+    const ClassicScreen()),
+CatItem(
+    _glow('SNACKS'),
+    'assets/images/dance.jpg',
+    const ClassicScreen()),
+  CatItem(
+      _glow('SNACKSPIZZA &\nBAGUETTE'),
+      'assets/images/dance.jpg',
       const ClassicScreen()),
 ];
