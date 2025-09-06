@@ -37,7 +37,7 @@ class MenuItemCard extends StatelessWidget {
             Expanded(
               child: Image.asset(
                 imagePath,
-                fit: BoxFit.cover,
+                fit: BoxFit.contain,
               ),
             ),
             Container(

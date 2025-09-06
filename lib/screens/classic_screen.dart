@@ -21,7 +21,7 @@ class ClassicScreen extends StatelessWidget {
         ),
       ),
       body: Padding(
-        padding: const EdgeInsets.all(8.0),
+        padding: const EdgeInsets.all(12.0),
         child: GridView.builder(
           itemCount: classicItems.length,
           gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
